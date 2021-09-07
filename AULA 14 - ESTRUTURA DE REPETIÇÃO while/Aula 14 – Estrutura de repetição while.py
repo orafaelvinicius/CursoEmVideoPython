@@ -4,6 +4,9 @@
 
 # Exemplo:
 '''
+while {lógica}:
+    {código}
+
 Em portugol:
 enquanto não maça:
     passo
