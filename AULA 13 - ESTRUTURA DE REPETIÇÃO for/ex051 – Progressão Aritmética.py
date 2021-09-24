@@ -14,6 +14,6 @@ razao = int(input('Razão: '))
 decimo = num + (10 - 1) * razao #- Formula para descobrir o enézimo termo da PA
 
 # -- Estrutura de repetição
-for p in range(num, decimo + razao, razao):
-    print('{}'.format(p), end=' -> ')
+for progressao in range(num, decimo + razao, razao):
+    print('{}'.format(progressao), end=' -> ')
 print('Acabou')
